@@ -1,0 +1,16 @@
+#root{
+
+    display: grid;
+    grid-template-columns: 30rem 1fr;
+
+}
+
+.nav-bar{
+    grid-column: 0/0;
+    grid-row: 0/0;
+}
+
+.proyect{
+    grid-column: 1/0;
+    grid-row: 1/0;
+}
