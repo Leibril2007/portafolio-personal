@@ -1,4 +1,6 @@
 import { navBarDiv } from "./components/navBar/navBar.js"; //importa el archivo, para que se pueda utilizar
+import { proyectos } from "./components/project/project.js";
+
 
 /* COMPONENTES DE LA PAGINA */
 
@@ -15,7 +17,7 @@ DOM.appendChild(navBar); // agrega el elemento como hijo a otro elemento.
 
 let proyect = document.createElement('section');
 proyect.className = "proyect";
-proyect.innerHTML = "Hola mundo soy proyect";
+proyect.appendChild(proyectos());
 DOM.appendChild(proyect);
 
 
