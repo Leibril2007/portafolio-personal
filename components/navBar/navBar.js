@@ -8,7 +8,7 @@ navBarDiv.appendChild(imgLogo);
 
 
 let h2 = document.createElement('h2');
-h2.innerText = "Ariel Subuyuj";
+h2.innerText = "Ariel Subuyuj"; // ----- componente
 navBarDiv.appendChild(h2);
 
 
