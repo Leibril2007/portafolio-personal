@@ -1,0 +1,52 @@
+.base-Contacto{
+    width: 100%;
+    max-width: 26rem;
+    height: 25rem;
+    
+    display: grid;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form1{
+    margin-top: 1rem;
+    border: 1px solid rgb(87, 87, 87);
+    border-radius: 3px;
+    outline: none;
+    width: 25rem;
+    height: 2.8rem;
+}
+
+.form2{
+    margin-top: 1rem;
+    border: 1px solid rgb(87, 87, 87);
+    border-radius: 3px;
+    outline: none;
+    width: 25rem;
+    height: 2.8rem;
+}
+
+.form3{
+    margin-top: 1rem;
+    border: 1px solid rgb(87, 87, 87);
+    border-radius: 3px;
+    outline: none;
+    width: 25rem;
+    height: 10rem;
+}
+
+.botForm{
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 3px;
+    background-color: black;
+    color: aliceblue;
+    margin-top: 1rem;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

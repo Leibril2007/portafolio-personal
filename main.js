@@ -1,6 +1,7 @@
+import { baseContacto } from "./components/form/form.js";
+import { baseComponentes } from "./components/componentesMenuLateral/componentesMenuLateral.js";
 import { navBarDiv } from "./components/navBar/navBar.js"; //importa el archivo, para que se pueda utilizar
 import { proyectos } from "./components/project/project.js";
-
 
 /* COMPONENTES DE LA PAGINA */
 
@@ -11,6 +12,9 @@ let DOM = document.querySelector("#root"); // llama al elemento
 let navBar = document.createElement('section'); // crea un elemento
 navBar.className = "nav-bar"; // agrega el nombre como una clase al elemento
 navBar.appendChild(navBarDiv);
+navBar.appendChild(baseComponentes);
+navBar.appendChild(baseContacto);
+
 DOM.appendChild(navBar); // agrega el elemento como hijo a otro elemento.
 
 /* Proyectos */
