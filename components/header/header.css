@@ -25,3 +25,27 @@
     justify-content: center;
     align-items: center;
 }
+
+@media only screen and  (max-width: 452px) {
+
+    .header{
+        width: 100%;
+        padding: 5rem 0rem;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .titProyectos{
+        font-size: 2.5rem;
+    }
+    
+    .botHeader{
+        margin-top: 1.5rem;
+        padding: 0.8rem 1.9rem;
+        font-size: 1.5rem;
+    }
+    
+}

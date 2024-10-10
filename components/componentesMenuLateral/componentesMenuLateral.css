@@ -1,6 +1,6 @@
 .base-Componentes{
     width: 100%;
-    max-width: 26rem;
+/*     max-width: 26rem; */
     height: 35rem;
     margin-top: 0.7rem;
 
@@ -130,4 +130,40 @@
 .tit-herramienta{
     margin-left: 0.7rem;
     color: rgb(63, 63, 63);
+}
+
+@media only screen and  (max-width: 452px) {
+
+    .base-Componentes{
+        width: 100%;
+        height: auto;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .div-herramienta{
+        max-width: 15rem;
+    }
+    .div-herramienta2{
+        max-width: 15rem;
+    }
+    .div-herramienta3{
+        max-width: 15rem;
+    }
+    .div-herramienta4{
+        max-width: 15rem;
+    }
+    .div-herramienta5{
+        max-width: 15rem;
+    }
+    .div-herramienta6{
+        max-width: 15rem;
+    }
+    
+    
+
+    
 }
